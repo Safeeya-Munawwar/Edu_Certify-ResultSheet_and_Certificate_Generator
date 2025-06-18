@@ -120,6 +120,8 @@ Or use **phpMyAdmin** / **MySQL Workbench GUI**
 
 ## 📸 Screenshots
 
+- Dashboard
+  ![Dashboard](screenshots/main.PNG)
 - Admin Dashboard  
 - Marks Entry  
 - Result Sheet PDF  
