@@ -1,6 +1,6 @@
 # 🎓 Edu Certify - Result Sheet and Certificate Generator
 
-**Edu Certify** is a web-based application designed for educational institutes to efficiently generate academic result sheets and class certificates for students. It supports **role-based dashboards** for admins and lecturers, allows **secure data management**, and provides **PDF generation** for results and certificates.
+**Edu Certify** is a web-based application designed for educational institutes to efficiently generate academic result sheets and class certificates for students. It supports **role-based dashboards** for super admin, institute admins,  lecturers and, studnets allows **secure data management**, and provides **PDF generation** for results and certificates.
 
 ---
 
@@ -37,8 +37,9 @@
 | Role            | Permissions                                                             |
 |-----------------|-------------------------------------------------------------------------|
 | **Admin**       | Full access: manage all students, lecturers, subjects, and marks        |
-| **Institute Admin** | Access limited to their institute data                            |
+| **Institute Admin** | Access limited to their institute data                              |
 | **Lecturer**    | Can only manage/view students in their department within the same institute |
+| **Student**     | Can view and download their specific resultsheet and certificate        |
 
 ---
 
