@@ -16,35 +16,6 @@
 
 ---
 
-## 📂 **Project Structure**
-
-Edu-Certify/
-│
-├── backend/ # Node.js + Express + MySQL API
-│ ├── controllers/
-│ ├── routes/
-│ ├── models/
-│ ├── config/
-│ ├── server.js
-│ └── .env
-│
-├── frontend/ # React (Next.js) Frontend
-│ ├── app/
-│ │ ├── admin/
-│ │ ├── lecturer/
-│ │ ├── institute-admin/
-│ │ └── login/
-│ ├── components/
-│ └── utils/
-│
-├── database/ # SQL schema and seed files
-│ └── schema.sql
-│
-├── README.md
-└── package.json
-
----
-
 ## 🛠️ **Technologies Used**
 
 ### **Frontend**
