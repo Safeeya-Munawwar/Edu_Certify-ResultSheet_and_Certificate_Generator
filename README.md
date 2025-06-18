@@ -48,8 +48,8 @@
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/edu-certify.git
-cd edu-certify
+git clone https://github.com/Safeeya-Munawwar/Edu_Certify-ResultSheet_and_Certificate_Generator.git
+cd result-generator
 ```
 
 ---
@@ -68,7 +68,7 @@ PORT=5000
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=yourpassword
-DB_NAME=edu_certify
+DB_NAME=results_db
 ```
 
 Run the server:
@@ -96,7 +96,7 @@ Visit the app at: [http://localhost:3000](http://localhost:3000)
 Import the SQL schema:
 
 ```bash
-mysql -u root -p < database/schema.sql
+mysql -u root -p < database/results_db.sql
 ```
 
 Or use **phpMyAdmin** / **MySQL Workbench GUI**
@@ -124,8 +124,6 @@ Or use **phpMyAdmin** / **MySQL Workbench GUI**
 - Marks Entry  
 - Result Sheet PDF  
 - Certificate Generation  
-
-_(Add screenshots in the repository or embed here using `![Alt](image-path)` if needed.)_
 
 ---
 
