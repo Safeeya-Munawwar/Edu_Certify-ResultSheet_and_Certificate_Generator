@@ -120,20 +120,26 @@ Or use **phpMyAdmin** / **MySQL Workbench GUI**
 
 ## 📸 Screenshots
 
-- Dashboard
-  ![Dashboard](screenshots/main.PNG)
-- Login
-  ![Login](screenshots/login.PNG)
-- Admin Dashboard
-  ![Admin Dashboard](screenshots/admin.PNG)
-- Lecturer Dashboard
-  ![Lecturer Dashboard](screenshots/lecturer.PNG)
-- Student Dashboard
-  ![Student Dashboard](screenshots/student.PNG)
-- Result Sheet PDF
-  ![Result Sheet](screenshots/resultsheet.PNG)
-- Certificate Generation
-  ![Certificate](screenshots/certificate.PNG)
+### 🖥️ Dashboard  
+![Dashboard](screenshots/main.PNG)
+
+### 🔐 Login  
+![Login](screenshots/login.PNG)
+
+### 🧑‍💼 Admin Dashboard  
+![Admin Dashboard](screenshots/admin.PNG)
+
+### 👨‍🏫 Lecturer Dashboard  
+![Lecturer Dashboard](screenshots/lecturer.PNG)
+
+### 🎓 Student Dashboard  
+![Student Dashboard](screenshots/student.PNG)
+
+### 📄 Result Sheet PDF  
+![Result Sheet](screenshots/resultsheet.PNG)
+
+### 🏅 Certificate Generation  
+![Certificate](screenshots/certificate.PNG)
 
 ---
 
