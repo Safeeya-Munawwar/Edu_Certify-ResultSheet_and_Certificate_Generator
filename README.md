@@ -122,10 +122,18 @@ Or use **phpMyAdmin** / **MySQL Workbench GUI**
 
 - Dashboard
   ![Dashboard](screenshots/main.PNG)
-- Admin Dashboard  
-- Marks Entry  
-- Result Sheet PDF  
-- Certificate Generation  
+- Login
+  ![Login](screenshots/institute_admin_login.PNG)
+- Admin Dashboard
+  ![Admin Dashboard](screenshots/admin_db.PNG)
+- Lecturer Dashboard
+  ![Lecturer Dashboard](screenshots/lecturer_db.PNG)
+- Student Dashboard
+  ![Student Dashboard](screenshots/student_db.PNG)
+- Result Sheet PDF
+  ![Result Sheet](screenshots/resultsheet.PNG)
+- Certificate Generation
+  ![Certificate](screenshots/certificate.PNG)
 
 ---
 
