@@ -1,18 +1,22 @@
-# 🎓 Edu Certify - Result Sheet and Certificate Generator
+# 🎓 **Edu Certify - Result Sheet and Certificate Generator**
 
-Edu Certify is a web-based application designed for educational institutes to efficiently generate academic resultsheets and class certificates for students. It supports role-based dashboards for admins and lecturers, allows secure data management, and provides PDF generation for results and certificates.
+**Edu Certify** is a web-based application designed for educational institutes to efficiently generate academic resultsheets and class certificates for students. It supports **role-based dashboards** for admins and lecturers, allows **secure data management**, and provides **PDF generation** for results and certificates.
 
-## 🚀 Features
+---
 
-- ✅ Admin & Lecturer Role Management
-- 📋 Student & Subject Management
-- 📚 Marks Entry by Lecturers
-- 🧮 Automatic GPA Calculation
-- 🏅 Class Certificate Generation (1st Class, 2nd Class, etc.)
-- 📄 PDF Download for Result Sheets & Certificates
-- 🏫 Grouped Views by Institute, Department, and Semester/Year
+## 🚀 **Features**
 
-## 📂 Project Structure
+- ✅ **Admin & Lecturer Role Management**
+- 📋 **Student & Subject Management**
+- 📚 **Marks Entry by Lecturers**
+- 🧮 **Automatic GPA Calculation**
+- 🏅 **Class Certificate Generation** (1st Class, 2nd Class, etc.)
+- 📄 **PDF Download** for Result Sheets & Certificates
+- 🏫 **Grouped Views** by Institute, Department, and Semester/Year
+
+---
+
+## 📂 **Project Structure**
 
 Edu-Certify/
 │
@@ -39,50 +43,54 @@ Edu-Certify/
 ├── README.md
 └── package.json
 
-markdown
-Copy
-Edit
+---
 
-## 🛠️ Technologies Used
 
-### Frontend
-- React (Next.js)
-- Tailwind CSS
-- jsPDF (for PDF generation)
-- Axios (for API communication)
+---
 
-### Backend
-- Node.js
-- Express
-- MySQL / MariaDB
-- Sequelize / Raw SQL
+## 🛠️ **Technologies Used**
 
-## 🔐 Roles and Permissions
+### **Frontend**
+- **React (Next.js)**
+- **Tailwind CSS**
+- **jsPDF** – For generating PDFs
+- **Axios** – For API communication
 
-| Role        | Permissions |
-|-------------|-------------|
-| Admin       | Manage all data (students, lecturers, subjects, marks) |
-| Institute Admin | View and manage data for a specific institute |
-| Lecturer    | Manage marks, view resultsheets and certificates only within their department |
+### **Backend**
+- **Node.js**
+- **Express**
+- **MySQL / MariaDB**
+- **Sequelize** or **Raw SQL**
 
-## 🧑‍💻 How to Run the Project
+---
 
-### 1. Clone the Repository
+## 🔐 **Roles and Permissions**
+
+| **Role**          | **Permissions**                                                             |
+|-------------------|------------------------------------------------------------------------------|
+| **Admin**         | Full access: manage all students, lecturers, subjects, and marks             |
+| **Institute Admin** | Access limited to their institute data                                     |
+| **Lecturer**      | Can only manage/view students in their department within the same institute  |
+
+---
+
+## 🧑‍💻 **How to Run the Project**
+
+### **1. Clone the Repository**
 
 ```bash
 git clone https://github.com/yourusername/edu-certify.git
 cd edu-certify
-2. Backend Setup
-bash
-Copy
-Edit
+
+### **2. Backend Setup**
+
+```bash
 cd backend
 npm install
-Configure your .env file:
 
-env
-Copy
-Edit
+Create a .env file inside the backend/ folder with the following content:
+
+```bash
 PORT=5000
 DB_HOST=localhost
 DB_USER=root
@@ -90,97 +98,76 @@ DB_PASSWORD=yourpassword
 DB_NAME=edu_certify
 Run the server:
 
-bash
-Copy
-Edit
+```bash
 npm start
-3. Frontend Setup
-bash
-Copy
-Edit
+
+### **3. Frontend Setup**
+
+```bash
 cd ../frontend
 npm install
 npm run dev
-Access the frontend at: http://localhost:3000
 
-4. Database Setup
-Import the SQL schema from the /database/schema.sql file into your MySQL server using a tool like phpMyAdmin or MySQL CLI.
+Visit your app at: http://localhost:3000
 
-bash
-Copy
-Edit
+### **4. Database Setup**
+
+Import the SQL schema:
+
+```bash
 mysql -u root -p < database/schema.sql
-📄 Result Sheet & Certificate Format
-Resultsheets include:
 
-Student Name, ID
+Or use phpMyAdmin / MySQL Workbench GUI.
 
-Subject-wise Marks & Grades
+## 📄 **Result Sheet & Certificate Format**
+**Result Sheets Include:**
+- Student Name & ID
+- Subject-wise Marks & Grades
+- GPA per Semester
+- Total GPA
 
-GPA per semester
+**Certificates Include:**
+- Student Name
+- Class Classification (e.g., First Class, Second Class)
+- Institute & Department Information
 
-Total GPA
+## 📸 **Screenshots**
+- Admin Dashboard
+- Marks Entry
+- Result Sheet PDF
+- Certificate Generation
 
-Certificates include:
+## 📦 **Dependencies**
+**Backend**
+- express
+- mysql2
+- dotenv
+- cors
+- nodemon
 
-Student Name
+**Frontend**
+- react
+- next.js
+- axios
+- jspdf
+- tailwindcss
 
-Classification (e.g., First Class)
+## 📌 **Future Improvements**
+- 📧 Email delivery for certificates
+- 🌐 Multi-language support
+- 📊 Admin analytics dashboard
+- 🖨️ Print-optimized layouts
 
-Issuing Institute and Department
+## 🧑‍🎓 **Use Cases**
+- Internal university/college student performance tracking
+- Auto-generation of printable resultsheets and award certificates
+- Department-specific academic evaluations
 
-📸 Screenshots
-Include relevant screenshots of your UI (dashboard, resultsheet view, certificate download, etc.)
+## 🤝 **Contributing**
+We welcome contributions!
+Feel free to fork this repository and submit a pull request with improvements.
 
-📦 Dependencies
-express
-
-mysql2
-
-dotenv
-
-cors
-
-nodemon
-
-react
-
-next.js
-
-axios
-
-jspdf
-
-tailwindcss
-
-📌 Future Improvements
-Email delivery for certificates
-
-Multi-language support
-
-Admin analytics dashboard
-
-Print-optimized layouts
-
-🧑‍🎓 Use Cases
-University/College internal student performance system
-
-Auto-generating printable results and awards
-
-Department-specific student evaluation
-
-🤝 Contributing
-Feel free to fork the repository and submit pull requests. Contributions are welcome!
-
-📄 License
+## 📄 **License**
 This project is licensed under the MIT License.
 
-© 2025 Edu Certify | Built with ❤️ using React, Node.js, and MySQL
-
-yaml
-Copy
-Edit
-
----
-
-Let me know if you want me to customize it further with your GitHub username, screenshots, or institute name.
+© 2025 Edu Certify | Built with ❤️ using React, Node.js, Express, and MySQL
