@@ -45,9 +45,6 @@ Edu-Certify/
 
 ---
 
-
----
-
 ## 🛠️ **Technologies Used**
 
 ### **Frontend**
