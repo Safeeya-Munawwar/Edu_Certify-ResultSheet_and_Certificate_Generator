@@ -120,7 +120,7 @@ Or use **phpMyAdmin** / **MySQL Workbench GUI**
 
 ## 📄 Project Report
 
-[View the Project Report](https://github.com/Safeeya-Munawwar/Restaurant-Management-System/blob/main/Unimo%20Project%20Report.pdf)
+[View the Project Report](https://github.com/Safeeya-Munawwar/Edu_Certify-ResultSheet_and_Certificate_Generator/blob/main/Edu%20Certify%20Report.pdf)
 
 ---
 
